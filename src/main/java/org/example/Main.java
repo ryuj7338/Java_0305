@@ -162,53 +162,50 @@ package org.example;
 //
 //        int i = 1;
 //
+//        while(i <= 1000){   // while문은 거짓이 될 때까지 무한 반복
+//            System.out.println(dan + " * " + i + " = " + dan * i);
+//            i++;
+//        }
 //
-//        System.out.println(dan + " * " + i + " = " + dan * i);
-//        i++;
-//        System.out.println(dan + " * " + i + " = " + dan * i);
-//        i++;
-//        System.out.println(dan + " * " + i + " = " + dan * i);
-//        i++;
-//        System.out.println(dan + " * " + i + " = " + dan * i);
-//        i++;
-//        System.out.println(dan + " * " + i + " = " + dan * i);
-//        i++;
-//        System.out.println(dan + " * " + i + " = " + dan * i);
-//        i++;
-//        System.out.println(dan + " * " + i + " = " + dan * i);
-//        i++;
-//        System.out.println(dan + " * " + i + " = " + dan * i);
-//        i++;
-//        System.out.println(dan + " * " + i + " = " + dan * i);
-//        i++;
-
-        // 출력
-    /*
-    8 * 1 = 8
-    8 * 2 = 16
-    8 * 3 = 24
-    8 * 4 = 32
-    8 * 5 = 40
-    8 * 6 = 48
-    8 * 7 = 56
-    8 * 8 = 64
-    8 * 9 = 72
-    ...
-    8 * 1000
-    */
+//        System.out.println("i: "+i);
+//
+//
+//
+//
+////       // while문 기본
+////        int i = 1; //초기 값
+////
+////        while (i <= 3){ // (i <= 3) : (종료) 조건
+////            System.out.println(i);
+////            i++; //step(보폭)
+////        }
+////
+////        System.out.println("i: "+i);
+////
+////        int j = 10;
+////
+////        while(j >= 1) {
+////            System.out.println(j);
+////            j--;
+////        }
+////
+////        System.out.println("j : "+j);
+//
+//        // 출력
+//    /*
+//    8 * 1 = 8
+//    8 * 2 = 16
+//    8 * 3 = 24
+//    8 * 4 = 32
+//    8 * 5 = 40
+//    8 * 6 = 48
+//    8 * 7 = 56
+//    8 * 8 = 64
+//    8 * 9 = 72
+//    ...
+//    8 * 1000
+//    */
 //    }
 //}
 
 
-class Main {
-    public static void main(String[] args) {
-        int dan = 8;
-
-        int i = 1;
-
-
-            System.out.println(dan + " * " + i + " = " + dan * i);
-            i++;
-
-   }
-}
