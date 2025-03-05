@@ -1,211 +1,148 @@
 package org.example;
 
-// 문제 : 아래와 같이 출력해주세요.
-//
-//class Main {
-//    public static void main(String[] args) {
-//        System.out.println("8 * 1 = 8");
-//        System.out.println("8 * 2 = 16");
-//        System.out.println("8 * 3 = 24");
-//        System.out.println("8 * 4 = 32");
-//        System.out.println("8 * 5 = 40");
-//        System.out.println("8 * 6 = 48");
-//        System.out.println("8 * 7 = 56");
-//        System.out.println("8 * 8 = 64");
-//        System.out.println("8 * 9 = 72");
-//
-//        System.out.println("==============");
-//
-//        String s = "8 * 1 = 8\n";  // string = 문장(문자열)
-//        String s1 = "8 * 2 = 16\n";
-//        String s2 = "8 * 3 = 24\n";
-//
-//        System.out.println(s + s1 + s2);
-//        s = s + "8 * 2 = 16\n";   //  s += "8 * 2 = 16\n";
-//        s = s + "8 * 3 = 24\n";   //  s += "8 * 3 = 24\n";
-//
-//        System.out.println(s);
-//
-//        // 출력
-//    /*
-//    8 * 1 = 8
-//    8 * 2 = 16
-//    8 * 3 = 24
-//    8 * 4 = 32
-//    8 * 5 = 40
-//    8 * 6 = 48
-//    8 * 7 = 56
-//    8 * 8 = 64
-//    8 * 9 = 72
-//    */
-//    }
-//}
-
-// 문제 : 아래와 같이 출력해주세요.
-// 문제 : dan 변수의 값에 따라 첫번째로 곱하는 수가 변하게 해주세요.
+// 문제 : 1부터 5까지 출력해주세요.
 
 //class Main {
 //    public static void main(String[] args) {
-//        int dan = 8;
 //
-//        System.out.println(dan+" * 1 = 8");
-//        System.out.println(dan+" * 2 = 16");
-//        System.out.println(dan+" * 3 = 24");
-//        System.out.println(dan+" * 4 = 32");
-//        System.out.println(dan+" * 5 = 40");
-//        System.out.println(dan+" * 6 = 48");
-//        System.out.println(dan+" * 7 = 56");
-//        System.out.println(dan+" * 8 = 64");
-//        System.out.println(dan+" * 9 = 72");
+////        int i = 1;
+////
+//////        while(i <=5){
+//////            System.out.println(i);
+//////            i++;
+//////        }
+////        // 출력
+////        // 1
+////        // 2
+////        // 3
+////        // 4
+////        // 5
 //
-//        // 출력
-//    /*
-//    8 * 1 = 8
-//    8 * 2 = 16
-//    8 * 3 = 24
-//    8 * 4 = 32
-//    8 * 5 = 40
-//    8 * 6 = 48
-//    8 * 7 = 56
-//    8 * 8 = 64
-//    8 * 9 = 72
-//    */
-//    }
-//}
-
-// 문제 : 아래와 같이 출력해주세요.
-// 문제 : dan 변수의 값에 따라 그에 해당하는 구구단이 출력 되도록 해주세요.
-
-//class Main {
-//    public static void main(String[] args) {
-//        int dan = 8;
-//
-//        System.out.println(dan + " * 1 = " +dan * 1);
-//        System.out.println(dan + " * 2 = " +dan * 2);
-//        System.out.println(dan + " * 3 = " +dan * 3);
-//        System.out.println(dan + " * 4 = " +dan * 4);
-//        System.out.println(dan + " * 5 = " +dan * 5);
-//        System.out.println(dan + " * 6 = " +dan * 6);
-//        System.out.println(dan + " * 7 = " +dan * 7);
-//        System.out.println(dan + " * 8 = " +dan * 8);
-//        System.out.println(dan + " * 9 = " +dan * 9);
-//
-//        // 출력
-//    /*
-//    8 * 1 = 8
-//    8 * 2 = 16
-//    8 * 3 = 24
-//    8 * 4 = 32
-//    8 * 5 = 40
-//    8 * 6 = 48
-//    8 * 7 = 56
-//    8 * 8 = 64
-//    8 * 9 = 72
-//    */
-//    }
-//}
-
- //문제 : 아래와 같이 출력해주세요.
- //문제 : 2부터 9까지의 숫자를 사용하지 않고 구구단 출력을 완성 해주세요.
-
-//class Main {
-//    public static void main(String[] args) {
-//        int dan = 8;
-//
-//        // 수정가능지역 시작
+//        int sum = 0;
 //        int i = 1;
 //
-//
-//        System.out.println(dan + " * " + i + " = " + dan * 1);
-//        i++;
-//        System.out.println(dan + " * " + i + " = " + dan * 2);
-//        i++;
-//        System.out.println(dan + " * " + i + " = " + dan * 3);
-//        i++;
-//        System.out.println(dan + " * " + i + " = " + dan * 4);
-//        i++;
-//        System.out.println(dan + " * " + i + " = " + dan * 5);
-//        i++;
-//        System.out.println(dan + " * " + i + " = " + dan * 6);
-//        i++;
-//        System.out.println(dan + " * " + i + " = " + dan * 7);
-//        i++;
-//        System.out.println(dan + " * " + i + " = " + dan * 8);
-//        i++;
-//        System.out.println(dan + " * " + i + " = " + dan * 9);
-//        i++;
-//        // 수정가능지역 끝
-//
-//        // 출력
-//    /*
-//    8 * 1 = 8
-//    8 * 2 = 16
-//    8 * 3 = 24
-//    8 * 4 = 32
-//    8 * 5 = 40
-//    8 * 6 = 48
-//    8 * 7 = 56
-//    8 * 8 = 64
-//    8 * 9 = 72
-//    */
+//        while (i <= 5){
+//            sum += i;
+//            i++;
+//        }
+//        System.out.println(sum);
 //    }
 //}
 
 
 
-// 문제 : 아래와 같이 출력해주세요.
-// 문제 : 단을 * 1000까지 출력해주세요.
+// 문제 : -100부터 25까지 출력해주세요.
+
+//class Main {
+//    public static void main(String[] args) {
+//
+////        int i = -100;
+////
+////        while(i <=25) {
+////            System.out.println(i);
+////            i++;
+////        }
+//        // 출력
+//
+//        int sum = 0;
+//        int i = -100;
+//
+//        while(i <= 25){
+//            sum += i;
+//            i++;
+//        }
+//        System.out.println(sum);
+//    }
+//}
+//
+//
+//// 문제 : 아래와 같이 출력해주세요.
+//// 문제 : 단을 `* 1000`부터 `* -500`까지 출력해주세요.
 
 //class Main {
 //    public static void main(String[] args) {
 //        int dan = 8;
 //
-//        int i = 1;
+//        int i = 1000;
 //
-//        while(i <= 1000){   // while문은 거짓이 될 때까지 무한 반복
+//
+//
+////        while(i >= -500) {
+////            System.out.println(dan + " * " + i + " = " + dan * i);
+////            i--;
+////        }
+//
+//        while(i >= 1) {
 //            System.out.println(dan + " * " + i + " = " + dan * i);
+//            i--;
+//        }
+//
+//
+//
+//        // 출력
+//    /*
+//    8 * 1000 = 8000
+//    ...
+//    8 * -500 = -4000
+//    */
+//    }
+//}
+//
+
+
+//
+//// 문제 : 1부터 3까지 출력하는 작업을 10번 해주세요.
+//// 조건 : 2중 while문 사용
+//
+class Main {
+    public static void main(String[] args) {
+
+//        int i = 1;
+//
+//
+//        while (i <= 10) {
+//
+//            int j = 1;
+//
+//            while (j <= 3) {
+
+//                System.out.println(j);
+//
+//                j++;
+//            }
+//
+//            i++;
+//
+//       }
+
+        for (int i = 1; i <= 10; i++) {
+
+            for (int j = 1; j <= 3; j++) {
+                System.out.println(j);
+            }
+            System.out.println("===");
+
+        }
+
+
+    }
+}
+
+//class Main {
+//    public static void main(String[] args) {
+//
+//        System.out.println("== while ==");
+//        int i = 1;
+//        while(i <= 3){
+//            System.out.println(i);
 //            i++;
 //        }
 //
-//        System.out.println("i: "+i);
+//        System.out.println("== for ==");
+//        for (int j = 1; j <= 3; j++) {
+//            System.out.println(j);
+//        }
 //
 //
-//
-//
-////       // while문 기본
-////        int i = 1; //초기 값
-////
-////        while (i <= 3){ // (i <= 3) : (종료) 조건
-////            System.out.println(i);
-////            i++; //step(보폭)
-////        }
-////
-////        System.out.println("i: "+i);
-////
-////        int j = 10;
-////
-////        while(j >= 1) {
-////            System.out.println(j);
-////            j--;
-////        }
-////
-////        System.out.println("j : "+j);
-//
-//        // 출력
-//    /*
-//    8 * 1 = 8
-//    8 * 2 = 16
-//    8 * 3 = 24
-//    8 * 4 = 32
-//    8 * 5 = 40
-//    8 * 6 = 48
-//    8 * 7 = 56
-//    8 * 8 = 64
-//    8 * 9 = 72
-//    ...
-//    8 * 1000
-//    */
 //    }
 //}
-
-
