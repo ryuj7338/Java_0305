@@ -12,30 +12,42 @@ package org.example;
 
 class Main {
     public static void main(String[] args) {
-        계산기.더한결과를화면에출력(10,20);
+        // 예시 시작
+        int c = 20 + Math.더하기(10, 20);
+        System.out.println(c);
+        // 예시 끝
 
-        // 출력 => 결과 : 30
+        int 결과1 = Math.oneToSum(3);
+        System.out.println("결과1 : " + 결과1);
+        // 출력 : 결과1 : 6
 
-        계산기.더한결과를화면에출력(10,20);
-        // 출력 => 결과 : 30
-
-        계산기.뺀결과를화면에출력(50,20);
-        // 출력 => 결과 : 30
+        int 결과2= Math.oneToSum(10);
+        System.out.println("결과2 : " + 결과2);
+        // 출력 : 결과2 : 55
     }
 }
-class 계산기 {
-    public static void 더한결과를화면에출력(int a, int b){
 
+class Math {
+    // static => 본사직원
+    // static은 현재 클래스에 지금당장 존재한다.
+    static int 더하기(int a, int b) {
+        // 메인 메서드의 int c와 아래 int c는 전혀 관계가 없다.
+        int c = a + b;
 
-        System.out.println("결과 : "+(a+b));
+        // return 값의 타입과 함수명의 앞부분이 같아야 한다.
+        // return => 변신
+        return c;
     }
-    public static void 뺀결과를화면에출력(int a, int b){
 
+    public static int oneToSum(int n) {
+        int sum = 0;
 
-        System.out.println("결과 : "+(a - b));
+        for (int i = 0; i <= n; i++) {
+            sum += i;
+        }
 
+        return sum;
     }
-
 }
 
 
