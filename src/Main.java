@@ -24,12 +24,12 @@ class Main {
     }
 }
 class 계산기 {
-    static void 더한결과를화면에출력(int a, int b){
+    public static void 더한결과를화면에출력(int a, int b){
 
 
         System.out.println("결과 : "+(a+b));
     }
-    static void 뺀결과를화면에출력(int a, int b){
+    public static void 뺀결과를화면에출력(int a, int b){
 
 
         System.out.println("결과 : "+(a - b));
