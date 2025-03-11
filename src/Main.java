@@ -21,7 +21,12 @@ class Main {
 }
 
 class 계산기 {
-    static int 합(int a, int b) {
+
+    static  void 합() {
+        int a = 10;
+
+    }
+    static void 합(int a, int b) {
 //
         System.out.println("a : " +a);
         System.out.println("b : " +b);
